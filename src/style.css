@@ -103,6 +103,7 @@ body *{
     background: #0f8;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+    align-self: center;
 }
 
 @media only screen and (max-width: 950px) {
@@ -130,5 +131,10 @@ body *{
     }
     .card-login{
         width: 90;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .card-login{
+        width: 100%;
     }
 }
